@@ -1,0 +1,366 @@
+/* RESET */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+}
+/* END RESET */
+
+
+
+
+
+
+
+/* VARIABLES */
+:root {
+    --background: #004D4B;
+    --Yellow: #FFDC00;
+    --white: #FFFFFF;
+    --Black: #000000;
+    --blue: #3340FF;
+    --grey: #878787;
+    --greytext: #565656;
+    --bluegreen: #40A09D;
+}
+/* VARIABLES */
+
+
+
+
+
+/* GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--Black);
+}
+
+h1 {
+    color: var(--greytext);
+    text-align: center;
+}
+
+p {
+    color: var(--greytext);
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.main-frappe-lokos {
+    width: 100%;
+}
+/* GENERALES */
+
+
+
+
+
+/* CABEZA */
+header {
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation-header {
+    background-color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 2rem;
+    border-radius: 50px;
+}
+
+.logo-title {
+    width: 6rem;
+    height: auto;
+    border-radius: 100%;
+}
+
+.list-header {
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+.items-header {
+    display: block;
+    margin: auto;
+}
+
+.links-header i {
+    color: var(--Black);
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.img-tile {
+    margin: 0;
+    padding: 0;
+}
+/* CABEZA */
+
+
+
+
+/* CUERPO */
+.main-cuerpo {
+    margin: auto;
+    width: 100%;
+}
+.logo-box {
+    width: 90%;
+    background-color: transparent;
+    margin: 10rem auto 0 auto;
+}
+
+.logo-box img {
+    width: 70%;
+    height: auto;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+
+.ofrecemos-box {
+    width: 100%;
+    background-color: var(--white);
+    margin: 2rem auto 2rem auto;
+}
+
+.ofrecemos-box h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.title-box-FN {
+    width: 90%;
+    background-color: var(--Yellow);
+    margin: 0 auto 2rem auto;
+    border-radius: 10px;
+}
+
+.titletxt {
+    color: var(--greytext);
+    font-size: 1.5rem;
+}
+
+.products-FN-box {
+    width: 90%;
+    border-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+}
+
+.product-box {
+    background-color: var(--white);
+    border-radius: 50px;
+    margin: 0 auto 1rem auto;
+    width: 90%;
+    padding: .5rem 0;
+}
+
+.producttxt {
+    color: var(--greytext);
+    font-size: 1.5rem;
+}
+
+.products-FN-CY-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.product-CY-box {
+    background-color: var(--white);
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    width: 5rem;
+}
+
+.product-CY-box p {
+    font-size: 1rem;
+}
+
+.products-FN-TM-box {
+    background-color: var(--white);
+    border-radius: 10px;
+    margin: 1rem auto;
+    width: 40%;
+    padding: 1rem 0;
+}
+
+.products-FN-TM-box p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.products-FN-pepino-box {
+    width: 90%;
+    background-color: var(--white);
+    margin: 0 auto 1rem auto;
+    border-radius: 50px;
+    padding: .5rem 0;
+}
+
+.products-FN-pepino-box p {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.img-product-FN-box {
+    width: 90%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    background-color: var(--Yellow);
+    border-radius: 10px;
+}
+
+.product-FN-CERE-box {
+    margin: auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+.product-FN-CERE-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description-FN-CERE-box {
+    margin: auto;
+    color: var(--Black);
+    font-size: 1.2rem;
+}
+
+.product-price {
+    background-color: var(--bluegreen);
+    padding: 0 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+.title-box-50 {
+    background-color: var(--Yellow);
+    margin: 2rem auto;
+    padding: .5rem 0;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.products-50-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.products-FN-emperador-box {
+    background-color: var(--white);
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
+    padding: .5rem 0;
+}
+
+.products-FN-principe-box {
+    background-color: var(--white);
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 50px;
+    padding: .5rem 0;
+}
+
+.products-50-OC-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: auto; 
+}
+
+.product-OC-box {
+    background-color: var(--white);
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    width: 5rem;
+}
+
+.product-OC-box p {
+    margin: auto;
+    font-size: 1rem;
+}
+
+.products-50-M-box {
+    background-color: var(--white);
+    border-radius: 10px;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 5rem;  
+}
+
+.products-50-M-box p {
+    font-size: 1rem;
+}
+
+.img-product-oreo-box {
+    width: 90%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    background-color: var(--Yellow);
+    border-radius: 10px;
+}
+
+.product-oreo-box {
+    margin: auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+.product-oreo-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description-oreo-box {
+    margin: auto;
+    color: var(--Black);
+    font-size: 1.2rem;
+}
+
+.title-box-60 {
+    background-color: var(--Yellow);
+    margin: 2rem auto;
+    padding: .5rem 0;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.products-60-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
